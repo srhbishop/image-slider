@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #23262A;
+}
+
+.container {
+    width: 750px;
+    position: relative;
+    background-color: #23262A;
+}
+
+.gallery-img {
+    width: 750px;
+}
+
+i {
+    z-index: 10;
+    color: white;
+    opacity: .5;
+    padding: 3px;
+    font-size: 5rem;
+}
+
+i:hover {
+    cursor: pointer;
+    opacity: .9;
+}
+
+.fa-chevron-left {
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    left: -10%;
+}
+
+.fa-chevron-right {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: -10%;
+}
